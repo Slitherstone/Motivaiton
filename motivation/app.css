@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  .card {
+    width: 80%;
+    
+    background-color: yellow;
+    border-radius: 5%;
+    overflow-x: hidden;
+  }
+  .card-body {
+    padding: 40px;
+  }
+
+  button{
+  background-color: green;
+  border: groove;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
